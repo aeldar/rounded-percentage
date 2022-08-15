@@ -1,5 +1,3 @@
-import * as R from 'ramda';
-
 // The Largest Remainder Method is used to calculate rounded percentage keeping the sum of them correct (add up to 100%).
 // Attention! The output order doesn't correspond to the input order.
 // See here: https://en.wikipedia.org/wiki/Largest_remainder_method
@@ -8,11 +6,11 @@ export function roundedPercentage<T>(xs: T[], percentageSelector: (x: T) => numb
   const difference = 100 - xs.reduce((acc, curr) => acc + Math.abs(Math.floor(percentageSelector(curr))), 0);
 
   // sort in descendant order by decimal part of the real percentage
-  const sortedByDecimalPart = R.sort((a, b) => {
+  const sortedByDecimalPart = [...xs].sort((a, b) => {
     const aPercentage = percentageSelector(a);
     const bPercentage = percentageSelector(b);
     return bPercentage - Math.floor(bPercentage) - (aPercentage - Math.floor(aPercentage));
-  }, xs);
+  });
 
   // distribute the difference between the rounded values in decreasing order of their decimal parts
   const { result } = sortedByDecimalPart.reduce(
