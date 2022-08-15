@@ -5,8 +5,7 @@ import * as R from 'ramda';
 // See here: https://en.wikipedia.org/wiki/Largest_remainder_method
 export function roundedPercentage<T>(xs: T[], percentageSelector: (x: T) => number): [T, number][] {
   // calculate the difference between the 100% and the sum of the rounded percentages
-  const difference =
-    100 - xs.reduce((acc, curr) => acc + Math.abs(Math.floor(percentageSelector(curr))), 0);
+  const difference = 100 - xs.reduce((acc, curr) => acc + Math.abs(Math.floor(percentageSelector(curr))), 0);
 
   // sort in descendant order by decimal part of the real percentage
   const sortedByDecimalPart = R.sort((a, b) => {

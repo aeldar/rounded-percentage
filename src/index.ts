@@ -1,1 +1,1 @@
-export * from './rounded-percentage'
+export * from './rounded-percentage';
