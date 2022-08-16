@@ -1,20 +1,19 @@
-# rounded-percentage
+# @aeldar/rounded-percentage
 
-The library exposes a function `rounded-percentage`, which takes a list of items with percentages and returns the list of tuples of original items and rounded percentages.
+A function `roundedPercentage`, which takes a list of items with percentages and returns the list of tuples of original items and rounded percentages.
 
-The [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainder_method) is used to calculate rounded percentage keeping the sum of them correct (add up to 100%).
+The [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainder_method) is used to calculate rounded percentage keeping the sum of them correct (added up to 100%).
 
 ## Signature
 
 ```typescript
-function roundedPercentage<T>(percentageSelector: (x: T) => number, xs: T[]): [T, number][];
+function roundedPercentage<T>(selector: (x: T) => number, xs: T[]): [T, number][];
 ```
 
 ## Params
 
-- `percentageSelector`: a function to extract the real percentage value from the list item.
-- `percentages`: An array of items with percentages. Can be any type that can be converted to a number (see `percentageSelector` parameter).
-
+- `selector`: a function to extract the real percentage value from every list item.
+- `xs`: an array of items with percentages. Can be any type that can be converted to a number with the provided `selector`.
 
 ## Return value
 
