@@ -1,6 +1,6 @@
 # @aeldar/rounded-percentage
 
-[![npm version][npm-badge]][npm-url] [![TypeScript][typescript-badge]][typescript-url] [![MIT License][license-badge]][license-url] [![CI Status][ci-badge]][ci-url] [![Size Status][size-badge]][size-url]
+[![npm version][npm-badge]][npm-url] [![Size Status][size-badge]][size-url] [![TypeScript][typescript-badge]][typescript-url] [![MIT License][license-badge]][license-url] [![CI Status][ci-badge]][ci-url]
 
 [npm-badge]: https://img.shields.io/npm/v/@aeldar/rounded-percentage
 [npm-url]: https://www.npmjs.com/package/@aeldar/rounded-percentage
@@ -10,7 +10,7 @@
 [license-url]: https://github.com/aeldar/rounded-percentage/blob/main/LICENSE
 [ci-badge]: https://github.com/aeldar/rounded-percentage/actions/workflows/main.yml/badge.svg
 [ci-url]: https://github.com/aeldar/rounded-percentage/actions/workflows/main.yml
-[size-badge]: https://github.com/aeldar/rounded-percentage/actions/workflows/size.yml/badge.svg
+[size-badge]: https://img.shields.io/bundlephobia/minzip/@aeldar/rounded-percentage
 [size-url]: https://github.com/aeldar/rounded-percentage/actions/workflows/size.yml
 
 
