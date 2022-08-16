@@ -1,6 +1,6 @@
 {
   "name": "@aeldar/rounded-percentage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "Calculates rounded percentage using the Largest Remainder Method to keep the sum of the rounded percentages equal to 100",
   "keywords": [
