@@ -1,6 +1,6 @@
 # @aeldar/rounded-percentage
 
-[![NPM version][npm-image]][npm-url]
+[![NPM version][npm-badge]][npm-url] [![Build Status][build-badge]][build-url]
 
 A function `roundedPercentage`, which takes a list of items with percentages and returns the list of tuples of original items and rounded percentages.
 
@@ -42,5 +42,7 @@ console.log(roudedPercentages);
 ```
 
 
-[npm-image]: https://badge.fury.io/js/@aeldar%2Frounded-percentage.svg
+[npm-badge]: https://badge.fury.io/js/@aeldar%2Frounded-percentage.svg
 [npm-url]: https://www.npmjs.com/package/@aeldar/rounded-percentage
+[build-badge]: https://github.com/aeldar/rounded-percentage/workflows/main.yml/badge.svg
+[build-url]: https://github.com/aeldar/rounded-percentage/actions
