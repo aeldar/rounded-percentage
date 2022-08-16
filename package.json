@@ -1,7 +1,9 @@
 {
   "version": "0.1.0",
   "license": "MIT",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
