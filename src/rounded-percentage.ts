@@ -3,8 +3,7 @@
 // See here: https://en.wikipedia.org/wiki/Largest_remainder_method
 export function roundedPercentage<T>(selector: (x: T) => number, xs: T[]): [T, number][] {
   // calculate the difference between the 100% and the sum of the rounded percentages
-  const difference =
-    100 - xs.reduce((acc, curr) => acc + Math.abs(Math.floor(selector(curr))), 0);
+  const difference = 100 - xs.reduce((acc, curr) => acc + Math.abs(Math.floor(selector(curr))), 0);
 
   // sort in descendant order by decimal part of the real percentage
   const sortedByDecimalPart = [...xs].sort((a, b) => {
