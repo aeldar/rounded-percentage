@@ -31,9 +31,9 @@ function roundedPercentage<T>(selector: (x: T) => number, xs: T[]): [T, number][
 
 ## Return value
 
-A list of tuples `[item, roundedPercentage]` where:
-- `item` is the original item from the input list (the reference is kept in case of an `object` item, so can be used for shallow comparison);
-- `roundedPercentage` is, hmm..., the rounded percentage.
+A list of tuples `[x, p]` where:
+- `x` is the original item from the list (which is the input param `xs`). The reference is kept in case of an `object` item, thus can be used for shallow comparison.
+- `p` is the rounded percentage for that item's real percentage.
 
 ATTENTION! The initial order of items is not preserved.
 
