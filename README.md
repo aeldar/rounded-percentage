@@ -1,5 +1,7 @@
 # @aeldar/rounded-percentage
 
+[![NPM version][npm-image]][npm-url]
+
 A function `roundedPercentage`, which takes a list of items with percentages and returns the list of tuples of original items and rounded percentages.
 
 The [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainder_method) is used to calculate rounded percentage keeping the sum of them correct (added up to 100%).
@@ -34,3 +36,7 @@ console.log(roudedPercentages);
 //  [8.3, 9], [1.1, 1], [3.6, 4], [2.25, 2], [2.25, 2], [2.25, 2], [2.25, 2], [64.8, 65], [13.2, 13]
 // ]
 ```
+
+
+[npm-image]: https://badge.fury.io/js/@aeldar%2Frounded-percentage.svg
+[npm-url]: https://www.npmjs.com/package/@aeldar/rounded-percentage
