@@ -1,8 +1,14 @@
 # rounded-percentage
 
-The library takes a list of percentages and returns the list of tuples of percentages and rounded percentages.
+The library exposes a function `rounded-percentage`, which takes a list of items with percentages and returns the list of tuples of original items and rounded percentages.
 
 The [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainder_method) is used to calculate rounded percentage keeping the sum of them correct (add up to 100%).
+
+## Signature
+
+```typescript
+function roundedPercentage<T>(percentageSelector: (x: T) => number, xs: T[]): [T, number][];
+```
 
 ## Params
 
