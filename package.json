@@ -30,8 +30,8 @@
     "singleQuote": true,
     "trailingComma": "all"
   },
-  "name": "rounded-percentage",
-  "author": "Eldar Aliyev",
+  "name": "@aeldar/rounded-percentage",
+  "author": "aeldar <eldar.aliyev8@gmail.com>",
   "module": "dist/rounded-percentage.esm.js",
   "size-limit": [
     {
