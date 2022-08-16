@@ -6,7 +6,7 @@ The [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainder_m
 
 ## Params
 
-- `percentageSelector`: a function to extract the real percentage value from the list item. The default is an identity function `x => x`.
+- `percentageSelector`: a function to extract the real percentage value from the list item.
 - `percentages`: An array of items with percentages. Can be any type that can be converted to a number (see `percentageSelector` parameter).
 
 
