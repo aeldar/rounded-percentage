@@ -5,7 +5,7 @@
 [npm-badge]: https://img.shields.io/npm/v/@aeldar/rounded-percentage
 [npm-url]: https://www.npmjs.com/package/@aeldar/rounded-percentage
 [typescript-badge]: https://img.shields.io/github/languages/top/aeldar/rounded-percentage
-[typescript-url]: https://www.typescriptlang.org/
+[typescript-url]: https://github.com/aeldar/rounded-percentage/search?l=typescript
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: https://github.com/aeldar/rounded-percentage/blob/main/LICENSE
 [ci-badge]: https://github.com/aeldar/rounded-percentage/actions/workflows/main.yml/badge.svg
