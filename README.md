@@ -21,6 +21,8 @@ function roundedPercentage<T>(selector: (x: T) => number, xs: T[]): [T, number][
 
 A list of tuples of the original percentages (or any other original type) and the rounded percentages.
 
+ATTENTION! The initial order of items is not preserved.
+
 ## Usage examples
 
 ```typescript
