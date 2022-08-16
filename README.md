@@ -1,6 +1,16 @@
 # @aeldar/rounded-percentage
 
-[![NPM version][npm-badge]][npm-url] [![CI Status][ci-badge]][ci-url] [![Size Status][size-badge]][size-url]
+[![GitHub license][license-badge]][license-url] [![npm version][npm-badge]][npm-url] [![CI Status][ci-badge]][ci-url] [![Size Status][size-badge]][size-url]
+
+[npm-badge]: https://img.shields.io/npm/v/@aeldar/rounded-percentage
+[npm-url]: https://www.npmjs.com/package/@aeldar/rounded-percentage
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-url]: https://github.com/aeldar/rounded-percentage/blob/main/LICENSE
+[ci-badge]: https://github.com/aeldar/rounded-percentage/actions/workflows/main.yml/badge.svg
+[ci-url]: https://github.com/aeldar/rounded-percentage/actions/workflows/main.yml
+[size-badge]: https://github.com/aeldar/rounded-percentage/actions/workflows/size.yml/badge.svg
+[size-url]: https://github.com/aeldar/rounded-percentage/actions/workflows/size.yml
+
 
 A function `roundedPercentage`, which takes a list of items with percentages and returns the list of tuples of original items and rounded percentages.
 
@@ -40,11 +50,3 @@ console.log(roudedPercentages);
 //  [8.3, 9], [1.1, 1], [3.6, 4], [2.25, 2], [2.25, 2], [2.25, 2], [2.25, 2], [64.8, 65], [13.2, 13]
 // ]
 ```
-
-
-[npm-badge]: https://badge.fury.io/js/@aeldar%2Frounded-percentage.svg
-[npm-url]: https://www.npmjs.com/package/@aeldar/rounded-percentage
-[ci-badge]: https://github.com/aeldar/rounded-percentage/actions/workflows/main.yml/badge.svg
-[ci-url]: https://github.com/aeldar/rounded-percentage/actions/workflows/main.yml
-[size-badge]: https://github.com/aeldar/rounded-percentage/actions/workflows/size.yml/badge.svg
-[size-url]: https://github.com/aeldar/rounded-percentage/actions/workflows/size.yml
