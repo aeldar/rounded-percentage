@@ -2,7 +2,7 @@ import { roundedPercentage } from './rounded-percentage';
 
 describe('roundedPercentage', () => {
   it('should return an empty array for provided empty array', () => {
-    expect(roundedPercentage([], x => x)).toEqual([]);
+    expect(roundedPercentage(x => x, [])).toEqual([]);
   });
 
   it('should return same percentages when provided with integer percentage', () => {
@@ -10,7 +10,7 @@ describe('roundedPercentage', () => {
     const inputSelector = (i: number) => i;
     const expectedOutput = input.map(i => [i, i]);
 
-    const output = roundedPercentage(input, inputSelector);
+    const output = roundedPercentage(inputSelector, input);
 
     // validate input and expected output first (add up to 100%)
     expect(input.reduce((acc, curr) => acc + inputSelector(curr), 0)).toBe(100);
@@ -35,7 +35,7 @@ describe('roundedPercentage', () => {
       [13.2, 13],
     ];
 
-    const output = roundedPercentage(input, inputSelector);
+    const output = roundedPercentage(inputSelector, input);
 
     // validate input and expected output first (add up to 100%)
     expect(input.reduce((acc, curr) => acc + inputSelector(curr), 0)).toBe(100);
@@ -49,8 +49,8 @@ describe('roundedPercentage', () => {
 
     const input = [createItem(10), createItem(4), createItem(72), createItem(14)];
     const inputSelector = <T extends { p: number }>(i: T) => i.p;
-    const output = input.map(i => [i, inputSelector(i)]);
+    const expectedOutput = input.map(i => [i, inputSelector(i)]);
 
-    expect(roundedPercentage(input, inputSelector).sort()).toEqual(output.sort());
+    expect(roundedPercentage(inputSelector, input).sort()).toEqual(expectedOutput.sort());
   });
 });
