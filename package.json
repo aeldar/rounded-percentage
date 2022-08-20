@@ -11,6 +11,10 @@
     "utility"
   ],
   "author": "aeldar <eldar.aliyev8@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aeldar/rounded-percentage"
+  },
   "publishConfig": {
     "access": "public"
   },
