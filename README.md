@@ -1,6 +1,6 @@
 # @aeldar/rounded-percentage
 
-[![npm version][npm-badge]][npm-url] [![Size Status][size-badge]][size-url] [![TypeScript][typescript-badge]][typescript-url] [![MIT License][license-badge]][license-url] [![CI Status][ci-badge]][ci-url][![Featured on Openbase]][openbase-badge][openbase-url]
+[![npm version][npm-badge]][npm-url] [![Size Status][size-badge]][size-url] [![TypeScript][typescript-badge]][typescript-url] [![MIT License][license-badge]][license-url] [![CI Status][ci-badge]][ci-url][![Featured on Openbase][openbase-badge]][openbase-url]
 
 [npm-badge]: https://img.shields.io/npm/v/@aeldar/rounded-percentage
 [npm-url]: https://www.npmjs.com/package/@aeldar/rounded-percentage
