@@ -1,6 +1,6 @@
 # @aeldar/rounded-percentage
 
-[![npm version][npm-badge]][npm-url] [![Size Status][size-badge]][size-url] [![TypeScript][typescript-badge]][typescript-url] [![MIT License][license-badge]][license-url] [![CI Status][ci-badge]][ci-url][![Featured on Openbase][openbase-badge]][openbase-url]
+[![npm version][npm-badge]][npm-url] [![Size Status][size-badge]][size-url] [![TypeScript][typescript-badge]][typescript-url] [![MIT License][license-badge]][license-url] [![CI Status][ci-badge]][ci-url][![Featured on Openbase](https://badges.openbase.com/js/featured/@aeldar/rounded-percentage.svg?token=kSWQA6pOGImJkHBxUHREJZQPzFr7ea/uGArQVat2+98=)](https://openbase.com/js/@aeldar/rounded-percentage?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
 
 [npm-badge]: https://img.shields.io/npm/v/@aeldar/rounded-percentage
 [npm-url]: https://www.npmjs.com/package/@aeldar/rounded-percentage
@@ -12,9 +12,6 @@
 [ci-url]: https://github.com/aeldar/rounded-percentage/actions/workflows/main.yml
 [size-badge]: https://img.shields.io/bundlephobia/minzip/@aeldar/rounded-percentage
 [size-url]: https://github.com/aeldar/rounded-percentage/actions/workflows/size.yml
-[openbase-badge]: https://badges.openbase.com/js/featured/@aeldar/rounded-percentage.svg?token=kSWQA6pOGImJkHBxUHREJZQPzFr7ea/uGArQVat2+98=
-[openbase-url]: https://openbase.com/js/@aeldar/rounded-percentage?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge
-
 
 A function `roundedPercentage`, which takes a list of items with percentages and returns the list of tuples of original items and rounded percentages.
 
